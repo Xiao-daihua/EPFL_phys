@@ -1,2 +1,4 @@
-\contentsline {section}{\numberline {1}Chapter1Reading}{1}{section.1}%
+\contentsline {section}{\numberline {1}Lecture 1}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Take home messages}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Questions and thoughts}{1}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Scratch book}{1}{section.2}%

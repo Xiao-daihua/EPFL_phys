@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1757005565.55548 "main.xdv" "main.pdf" "main" 1757005566.76268 0
-  "main.xdv" 1757005565.37284 7556 fbacc4b03a355b7fb92bcb1338ca7b78 "xelatex"
+["xdvipdfmx"] 1757451040.47554 "main.xdv" "main.pdf" "main" 1757451041.15393 0
+  "main.xdv" 1757451040.30881 13488 c4362839a65a71601cb38ae487e8d991 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1757005558.03341 "main.tex" "main.xdv" "main" 1757005566.75687 0
+["xelatex"] 1757451034.72758 "main.tex" "main.xdv" "main" 1757451041.14946 0
   "/System/Library/Fonts/Menlo.ttc" 1755369869 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -222,13 +222,14 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1750926848 5891524 3ddce580d962c5e645f787bf7a31f21f ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "cjkhl.sty" 1757005326.62549 2659 07e07fe2124aaffe2c1f544596237850 ""
-  "macros.sty" 1757005326.62602 6677 cf13e6c39359c2d67f989acbddf79b9d ""
-  "main.aux" 1757005565.30933 622 027e233c2dba30001c4c8a472b8e8882 "xelatex"
-  "main.out" 1757005565.34544 224 24385df5882f8b94357c9b59c11f8c70 "xelatex"
-  "main.tex" 1757005503.14907 2877 243cedf53241e01156477e8407806502 ""
-  "main.toc" 1757005565.37246 139 c553a9c4ae95a2c11e680bcdb70b35ac "xelatex"
-  "sb.tex" 1757005326.62997 89 d2d395969e402b7f628516cd55008e4a ""
+  "cjkhl.sty" 1757417733.35684 2659 07e07fe2124aaffe2c1f544596237850 ""
+  "lec1.tex" 1757451014.2525 355 79ba6eed48fbe8b88d59803f22d89f0f ""
+  "macros.sty" 1757417733.35705 6677 cf13e6c39359c2d67f989acbddf79b9d ""
+  "main.aux" 1757451040.26817 852 9ead511fb218b9341b93c37628b911ff "xelatex"
+  "main.out" 1757451040.28864 523 becacd663a1f769c374597ae6ddeb588 "xelatex"
+  "main.tex" 1757451033.40194 2841 50f9fe012e9d46971436f54d954d44ee ""
+  "main.toc" 1757451040.28996 305 59ab4df4033e9cf5ae9f4fe187bf7e43 "xelatex"
+  "sb.tex" 1757417733.36045 89 d2d395969e402b7f628516cd55008e4a ""
   (generated)
   "main.aux"
   "main.log"

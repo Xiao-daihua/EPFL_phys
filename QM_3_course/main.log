@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  4 SEP 2025 19:05
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  9 SEP 2025 22:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1234,7 +1234,7 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"STFangsong/OT:script=hani;language=dflt;"
 
- (./sb.tex)
+ (./lec1.tex) (./sb.tex)
 
 [1
 
@@ -1244,15 +1244,15 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 24385DF5882F8B94357C9B59C11F8C70;224.
+(rerunfilecheck)             Checksum: BECACD663A1F769C374597AE6DDEB588;523.
  ) 
 Here is how much of TeX's memory you used:
- 34971 strings out of 468527
- 751100 string characters out of 5447700
- 1188765 words of memory out of 5000000
- 62712 multiletter control sequences out of 15000+600000
+ 34992 strings out of 468527
+ 751918 string characters out of 5447700
+ 1194765 words of memory out of 5000000
+ 62730 multiletter control sequences out of 15000+600000
  637744 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,7n,121p,584b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (1 page, 7556 bytes).
+Output written on main.xdv (1 page, 13488 bytes).
