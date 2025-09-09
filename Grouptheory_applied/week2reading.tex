@@ -1,0 +1,54 @@
+\subsection{Take home messages for Week 2}
+Note for week 2 reading of "Lie Algebras in Particl Physics" by Howard Georgi.
+
+\hlr{对称群以及其表示}
+
+\imp{对称群的记号定义}{
+  注意！定义是【position】的变化而不是number的变化。如果是number的变化那么$ (1,2)(2,3) \neq (1,2,3) $ 所以「严格的」应该理解成【位置的变换】。也就是$ (1,2) $是吧第一个和第二个位置上面的东西进行交换而不是把数字1和2进行交换。
+}
+
+\hlr{连续的群结构}
+
+
+
+
+
+\subsection{Explanation and Questions for Week 2}
+
+\textbf{Question 1: 本书之中我们经常使用 $ \ket{i} $ 作为一个表示的基，这到底是什么意思？}
+
+我觉得本书之中这样的使用其实意思就是$ \ket{i} $的意思就是$ (0,...,1,...0) $ 其中1出现在第i个位置上面。因为算符 $ D_a(g) $ 作用在这个基上面给出的矩阵就是这样的 $ \bra{i} D_a(g) \ket{j} = G $
+
+\imp{本书对于李代数讨论的数学缺陷}{
+  我们说明了连续群的生成元，根据群的乘法关系，如果写作exp parametrization的形式需要存在commutative algebra的结构。但是并没有证明这个代数结构具有代数应该有的数学性质。
+
+  但是自然的结果应该是存在这样的性质的！！
+}
+
+\textbf{Question 2: 生成元本身自带哪些数学结构？(sec:2.2)}
+
+请注意我们的生成元的定义是：
+\begin{equation}
+  X_a\equiv-i\left.\frac{\partial}{\partial\alpha_a}D(\alpha)\right|_{\alpha=0}
+  \label{eq:generatordef}
+\end{equation}
+也就是选定某一个对于群表示的参数化之后，生成元就是表示对于这个参数的导数。并且为了方便讨论，我们一般使用指数参数化的形式。也就是我们使用这样的一组$ \{ \alpha_a\} $进行参数化，使得$ e $附近的群元素可以写作：$ D(\alpha) = exp(i \alpha_a X_a) $。
+
+\begin{enumerate}
+  \item 加法/数乘结构： 
+所有的生成元都是线性映射【因为表示是这么定义的】，某两个线性空间之间的线性映射其实构成了一个线性空间，赋予「数乘+加法」结构。根据tayler expansion的性质，我们知道这样组合的生成元仍然是生成元。
+\item 乘法结构：
+同时，因为我们考虑的表示一般是一个线性空间自己到自己的线性映射。所以，生成元一般可以自然赋予乘法的结构。但是我们并不知道这样的乘法结构之后的物体是否仍然是一个生成元。
+\item 对易结构：
+只是commutation algebra的结构告诉我们，如果$ X_a $是选定某个指数参数化之后的生成元，那么$ [X_a, X_b] $也是一个对于指数参数化生成元。
+\end{enumerate}
+
+\textbf{Question 3: 请告诉我一些线性代数的基本知识球球了！！}
+
+\textbf{实对称矩阵：} 可以进行对角化，并且所有本征值都是实数。但是正负并不确定。显然是Hermite的。
+
+\textbf{纯虚反对称矩阵：}显然也是Hermite的，并且本征值都是纯虚数。
+
+
+
+\subsection{Exercise for Week 2}

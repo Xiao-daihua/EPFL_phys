@@ -1,0 +1,343 @@
+\ProvidesPackage{macros}
+% 设置颜色
+\definecolor{lightblue}{rgb}{.8,.8,1}   % 浅蓝色
+\definecolor{lightred}{rgb}{1,.8,.8}    % 浅红色（RGB: 255,204,204）
+\definecolor{lightyellow}{rgb}{1,1,.8}  % 浅黄色（RGB: 255,255,204）
+
+% 定理环境
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{axiom}{Axiom}
+
+% 段落缩进
+\setlength{\parindent}{2em}
+
+% 数学字体快捷命令，\mA-\mZ 对应 \mathcal{A}-\mathcal{Z}
+\def\mA{\mathcal{A}}
+\def\mB{\mathcal{B}}
+\def\mC{\mathcal{C}}
+\def\mD{\mathcal{D}}
+\def\mE{\mathcal{E}}
+\def\mF{\mathcal{F}}
+\def\mG{\mathcal{G}}
+\def\mH{\mathcal{H}}
+\def\mI{\mathcal{I}}
+\def\mJ{\mathcal{J}}
+\def\mK{\mathcal{K}}
+\def\mL{\mathcal{L}}
+\def\mM{\mathcal{M}}
+\def\mN{\mathcal{N}}
+\def\mO{\mathcal{O}}
+\def\mP{\mathcal{P}}
+\def\mQ{\mathcal{Q}}
+\def\mR{\mathcal{R}}
+\def\mS{\mathcal{S}}
+\def\mT{\mathcal{T}}
+\def\mU{\mathcal{U}}
+\def\mV{\mathcal{V}}
+\def\mW{\mathcal{W}}
+\def\mX{\mathcal{X}}
+\def\mY{\mathcal{Y}}
+\def\mZ{\mathcal{Z}}
+
+\def\bbA{\mathbb{A}}
+\def\bbB{\mathbb{B}}
+\def\bbC{\mathbb{C}}
+\def\bbD{\mathbb{D}}
+\def\bbE{\mathbb{E}}
+\def\bbF{\mathbb{F}}
+\def\bbG{\mathbb{G}}
+\def\bbH{\mathbb{H}}
+\def\bbI{\mathbb{I}}
+\def\bbJ{\mathbb{J}}
+\def\bbK{\mathbb{K}}
+\def\bbL{\mathbb{L}}
+\def\bbM{\mathbb{M}}
+\def\bbN{\mathbb{N}}
+\def\bbO{\mathbb{O}}
+\def\bbP{\mathbb{P}}
+\def\bbQ{\mathbb{Q}}
+\def\bbR{\mathbb{R}}
+\def\bbS{\mathbb{S}}
+\def\bbT{\mathbb{T}}
+\def\bbU{\mathbb{U}}
+\def\bbV{\mathbb{V}}
+\def\bbW{\mathbb{W}}
+\def\bbX{\mathbb{X}}
+\def\bbY{\mathbb{Y}}
+\def\bbZ{\mathbb{Z}}
+
+\def\rmA{\mathrm{A}}
+\def\rmB{\mathrm{B}}
+\def\rmC{\mathrm{C}}
+\def\rmD{\mathrm{D}}
+\def\rmE{\mathrm{E}}
+\def\rmF{\mathrm{F}}
+\def\rmG{\mathrm{G}}
+\def\rmH{\mathrm{H}}
+\def\rmI{\mathrm{I}}
+\def\rmJ{\mathrm{J}}
+\def\rmK{\mathrm{K}}
+\def\rmL{\mathrm{L}}
+\def\rmM{\mathrm{M}}
+\def\rmN{\mathrm{N}}
+\def\rmO{\mathrm{O}}
+\def\rmP{\mathrm{P}}
+\def\rmQ{\mathrm{Q}}
+\def\rmR{\mathrm{R}}
+\def\rmS{\mathrm{S}}
+\def\rmT{\mathrm{T}}
+\def\rmU{\mathrm{U}}
+\def\rmV{\mathrm{V}}
+\def\rmW{\mathrm{W}}
+\def\rmX{\mathrm{X}}
+\def\rmY{\mathrm{Y}}
+\def\rmZ{\mathrm{Z}}
+
+\def\sfA{\mathsf{A}}
+\def\sfB{\mathsf{B}}
+\def\sfC{\mathsf{C}}
+\def\sfD{\mathsf{D}}
+\def\sfE{\mathsf{E}}
+\def\sfF{\mathsf{F}}
+\def\sfG{\mathsf{G}}
+\def\sfH{\mathsf{H}}
+\def\sfI{\mathsf{I}}
+\def\sfJ{\mathsf{J}}
+\def\sfK{\mathsf{K}}
+\def\sfL{\mathsf{L}}
+\def\sfM{\mathsf{M}}
+\def\sfN{\mathsf{N}}
+\def\sfO{\mathsf{O}}
+\def\sfP{\mathsf{P}}
+\def\sfQ{\mathsf{Q}}
+\def\sfR{\mathsf{R}}
+\def\sfS{\mathsf{S}}
+\def\sfT{\mathsf{T}}
+\def\sfU{\mathsf{U}}
+\def\sfV{\mathsf{V}}
+\def\sfW{\mathsf{W}}
+\def\sfX{\mathsf{X}}
+\def\sfY{\mathsf{Y}}
+\def\sfZ{\mathsf{Z}}
+
+\def\scrA{\mathscr{A}}
+\def\scrB{\mathscr{B}}
+\def\scrC{\mathscr{C}}
+\def\scrD{\mathscr{D}}
+\def\scrE{\mathscr{E}}
+\def\scrF{\mathscr{F}}
+\def\scrG{\mathscr{G}}
+\def\scrH{\mathscr{H}}
+\def\scrI{\mathscr{I}}
+\def\scrJ{\mathscr{J}}
+\def\scrK{\mathscr{K}}
+\def\scrL{\mathscr{L}}
+\def\scrM{\mathscr{M}}
+\def\scrN{\mathscr{N}}
+\def\scrO{\mathscr{O}}
+\def\scrP{\mathscr{P}}
+\def\scrQ{\mathscr{Q}}
+\def\scrR{\mathscr{R}}
+\def\scrS{\mathscr{S}}
+\def\scrT{\mathscr{T}}
+\def\scrU{\mathscr{U}}
+\def\scrV{\mathscr{V}}
+\def\scrW{\mathscr{W}}
+\def\scrX{\mathscr{X}}
+\def\scrY{\mathscr{Y}}
+\def\scrZ{\mathscr{Z}}
+
+
+
+
+% 线性代数相关符号
+\def\Tr{\mathrm{Tr}}
+
+% 左右括号简写
+\def\sl{\left( }
+\def\sr{\right)}
+\def\ml{\left[ }
+\def\mr{\right] }
+\def\ll{\left\{ }
+\def\lr{\right\} }
+
+% 常用符号
+\def\bl{\bar{L}}
+\def\bz{\bar{z}}
+
+% 环境快捷宏：左侧栏（用于备注等）
+\newcommand{\bbar}{\begin{leftbar}}
+\newcommand{\ebar}{\end{leftbar}}
+
+% 备注环境
+\newcommand{\rmk}[1]{%
+  \bbar
+  \textbf{Remark:}
+
+  #1
+  \ebar
+}
+
+% 换行加水平线
+\def\line{~\\
+\hrule
+~\\
+}
+
+% 公式环境
+\newcommand{\eq}[1]{%
+  \begin{align}
+    #1
+  \end{align}
+}
+
+
+% 定义环境快捷写法
+\newcommand{\defi}[1]{%
+  \bbar
+  \begin{definition}
+    #1
+  \end{definition}
+  \ebar
+}
+
+\newcommand{\thm}[1]{%
+  \bbar
+  \begin{theorem}
+    #1
+  \end{theorem}
+  \ebar
+}
+
+\newcommand{\axm}[1]{%
+  \bbar
+  \begin{axiom}
+    #1
+  \end{axiom}
+  \ebar
+}
+
+\newcommand{\lmm}[1]{%
+  \bbar
+  \begin{lemma}
+    #1
+  \end{lemma}
+  \ebar
+}
+
+% 科研笔记相关盒子环境
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+
+\newcommand{\imp}[2]{%
+  \begin{tcolorbox}[colback=Emerald!10,colframe=cyan!40!black,title=\textbf{Important: #1},breakable]
+    #2
+  \end{tcolorbox}
+}
+
+\newcommand{\think}[1]{%
+  \bbar
+  \textbf{\textcolor{red}{!!!THIS PROBLEM DESERVES FURTHER CONSIDERATION!!!}}
+
+  #1
+  \ebar
+}
+
+\newcommand{\idea}[2]{%
+  \begin{tcolorbox}[title=\textbf{#1},colback=SeaGreen!10!CornflowerBlue!10,colframe=RoyalPurple!55!Aquamarine!100!,breakable]
+    #2
+  \end{tcolorbox}
+}
+
+\newcommand{\tar}[1]{%
+  \bbar
+  \textbf{Target:}
+
+  #1
+  \ebar
+}
+
+% 问题盒子（已存在）
+\newcommand{\ques}[2]{%
+  \begin{tcolorbox}[title=\textbf{#1}, colback=Salmon!20, colframe=Salmon!90!Black, breakable]
+    #2
+  \end{tcolorbox}
+}
+
+% 小提示盒子（已存在）
+\newcommand{\tip}[2]{%
+  \begin{tcolorbox}[colback=RoyalPurple!20!white, colframe=RoyalPurple!65!black,
+    title=\textbf{Tip: #1}, fonttitle=\bfseries, breakable]
+    #2
+  \end{tcolorbox}
+}
+
+% 重要结论盒子（统一为两个参数）
+\newcommand{\conclusion}[2]{%
+  \begin{tcolorbox}[colback=SeaGreen!25!white, colframe=SeaGreen!60!black,
+    title=\textbf{#1}, fonttitle=\bfseries, breakable]
+    #2
+  \end{tcolorbox}
+}
+
+% 注意事项盒子（统一为两个参数）
+\newcommand{\attention}[2]{%
+  \begin{tcolorbox}[colback=CornflowerBlue!25!white, colframe=CornflowerBlue!65!black,
+    title=\textbf{#1}, fonttitle=\bfseries, breakable]
+    #2
+  \end{tcolorbox}
+}
+
+% 其他常用宏
+
+% 加粗标题宏
+\newcommand{\hdt}[1]{%
+  \textbf{#1}
+}
+
+% 插图宏（带强制浮动）
+\newcommand{\pict}[2]{%
+  \begin{figure}[H]
+    \centerline{\includegraphics[width=#2\linewidth]{#1}}
+    \centering
+  \end{figure}
+}
+
+% itemize 环境
+\newcommand{\itm}[1]{%
+  \begin{itemize}
+    #1
+  \end{itemize}
+}
+
+% item 语句
+\newcommand{\pt}[1]{%
+  \item{#1}
+}
+
+% 警告盒子
+\newcommand{\at}[1]{%
+  \begin{tcolorbox}[colframe=black,colback=lightgray]
+    \textbf{!!ATTENTION!!}
+
+    #1
+  \end{tcolorbox}
+}
+
+% 高亮背景
+\newcommand{\ghl}[1]{\colorbox{lightgray}{#1}}
+\definecolor{darkred}{HTML}{B22222} % 自定义暗红色（可改成喜欢的 RGB/HTML 值）
+% 浅蓝色高亮
+\newcommand{\hlb}[1]{\cjkhl{lightblue}{#1}}
+\newcommand{\hlr}[1]{\cjkhl{lightred}{#1}}
+\newcommand{\hly}[1]{\cjkhl{lightyellow}{#1}}
+
+% 共形场论常用符号
+\def\pdbar{\bar{\partial}}
+\def\pd{\partial}
+
+
+\definecolor{YLcolor}{rgb}{0.1,0,1}
+\newcommand{\YL}[1]{\textcolor{YLcolor}{#1}}
