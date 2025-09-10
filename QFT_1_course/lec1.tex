@@ -2,10 +2,22 @@
 \hlr{为什么QFT是唯一能够reconcile GR和QM的理论？}
 
 \begin{enumerate}
-  \item 相对论告诉我们有光速上限，所以所有传播都需要是local的。
+  \item 我们可以把Schrodinger方程写作一个平移不变的Clein-Gordon方程。但是问题是这个方程有负能解。我们可以手动消去负能量：
+    \begin{equation}
+      (i\hbar\partial_t-\sqrt{m^2c^4-\hbar^2c^2\nabla^2})\psi(t,x)=0\mathrm{~.}
+      \label{eq:nonegativenergyspectrum}
+    \end{equation}
+    但是会有问题，相对论告诉我们光锥内外是不会相互影响的。但是我们可以计算上面方程的传播子：
+    \begin{equation}
+      A(x\to y,t)=e^{-\frac{mc}{\hbar}\sqrt{(x-y)^2-c^2t^2}}f(x-y,t)
+      \label{eq:propergagtiontest}
+    \end{equation}
+    所以粒子有一定概率可以超过光速，这是违背相对论的。
   \item 
 \end{enumerate}
 
+\subsection{Questions and thoughts}
+\textbf{Q1: 流形上面的函数是怎么定义协变的方法的？}
 
 
 
