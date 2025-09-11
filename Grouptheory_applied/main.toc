@@ -5,5 +5,4 @@
 \contentsline {section}{\numberline {2}Week 2 Reading}{14}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Take home messages for Week 2}{14}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Explanation and Questions for Week 2}{14}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Exercise for Week 2}{15}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Scratch book}{16}{section.3}%

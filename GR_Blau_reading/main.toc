@@ -1,8 +1,8 @@
-\contentsline {section}{\numberline {1}Setion A: Physics in a gravitational field and tensor calculus}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}EEP from gravity to Geometry}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}章节内容 take home message}{1}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}章节问题捏}{2}{subsubsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.2}Metric Geometry and Geodesic}{3}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}章节内容 take home message}{3}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}章节问题捏}{3}{subsubsection.1.2.2}%
-\contentsline {section}{\numberline {2}sketch book}{3}{section.2}%
+\contentsline {chapter}{\numberline {1}Setion A: Physics in a gravitational field and tensor calculus}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}EEP from gravity to Geometry}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}章节内容 take home message}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}章节问题捏}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Metric Geometry and Geodesic}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}章节内容 take home message}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}章节问题捏}{3}{subsection.1.2.2}%
+\contentsline {chapter}{\numberline {2}sketch book}{4}{chapter.2}%

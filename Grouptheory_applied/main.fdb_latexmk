@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1757414941.88758 "main.xdv" "main.pdf" "main" 1757414944.29135 0
-  "main.xdv" 1757414941.70523 416480 104cd823c64c7c35e732ed9cb339cb8b "xelatex"
+["xdvipdfmx"] 1757582842.86283 "main.xdv" "main.pdf" "main" 1757582845.31568 0
+  "main.xdv" 1757582842.68687 422468 13bd3adcdb35980ee7ca1c067b0cfcc0 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1757414934.51581 "main.tex" "main.xdv" "main" 1757414944.28588 0
+["xelatex"] 1757582834.92532 "main.tex" "main.xdv" "main" 1757582845.31098 0
   "/System/Library/Fonts/Menlo.ttc" 1755369869 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -234,12 +234,12 @@
   "chapter1reading.tex" 1757324850.83294 24318 45f78724c1a6963a3ce5b677385ea4d2 ""
   "cjkhl.sty" 1757009146.98524 2659 07e07fe2124aaffe2c1f544596237850 ""
   "macros.sty" 1757009146.98564 6677 cf13e6c39359c2d67f989acbddf79b9d ""
-  "main.aux" 1757414941.66644 7942 da8ce7f2a0538b1c640627b23b4e9cf4 "xelatex"
-  "main.out" 1757414941.68613 1609 552725a95fe5c44a12dd7248cbd219dd "xelatex"
+  "main.aux" 1757582842.64736 7815 556edec1940763acef5abae445006ed4 "xelatex"
+  "main.out" 1757582842.66738 1448 e0719fe845b59a3de2a2756c44a72dc6 "xelatex"
   "main.tex" 1757318477.51176 3149 4ed8e70473a78a047567db926c96e77a ""
-  "main.toc" 1757414941.68711 779 657c03ccaa8f4359411cfa7184195ed8 "xelatex"
+  "main.toc" 1757582842.68643 693 ac88fc9a80564d81e7c0d3310300451d "xelatex"
   "sb.tex" 1757009146.98915 89 d2d395969e402b7f628516cd55008e4a ""
-  "week2reading.tex" 1757414934.13706 3053 70860f1de79a26ae3bddc064b8eff0bc ""
+  "week2reading.tex" 1757582834.39975 3971 f091aa9ef0d1d0474f03b3dbb1a50016 ""
   (generated)
   "main.aux"
   "main.log"

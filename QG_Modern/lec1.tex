@@ -1,0 +1,71 @@
+\section{Preliminaries for Lecture}\label{sec:Preliminaries for Lecture} % (fold)
+\subsection{Variational Principle and Boundary Terms}
+Hamilton 原理告诉我们：
+\begin{enumerate}
+  \item 对于一个动力学体系，如果lagrangian【只包含自由度和自由度的导数项】 $ L = L(q,\dot{q}) $
+  \item 并且我们选择适当的边界条件【Dirichlet或者Neumann】
+\end{enumerate}
+在这样的两个条件基础上我们动力学方程满足： $ \delta S = 0 $
+
+如果我们希望把Hamilton原理推广到更一般的动力学体系。需要有两个值得讨论的问题，也就是对应着上面两个条件：
+\begin{enumerate}
+  \item 如果lagrangian包含高阶导数项怎么办？【eg $ L = L(q,\dot{q},\ddot{q}) $】
+  \item 为什么边界上不能同时固定位置和动量？【Dirichlet和Neumann】为什么只能选择其中一个？
+\end{enumerate}
+首先回答第一个问题，我们显然也可以考虑有高阶导数的lagrangian的变分，但是很可能变分的结果是这样的：
+\begin{equation}
+  \delta S=\int\left[\frac{\partial L}{\partial q}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}}+\frac{d^{2}}{dt^{2}}\frac{\partial L}{\partial\ddot{q}}\right]\delta q+\left[\left(\frac{\partial L}{\partial\dot{q}}-\frac{d}{dt}\frac{\partial L}{\partial\ddot{q}}\right)\delta q+\frac{\partial L}{\partial\ddot{q}}\delta\dot{q}\right]_{\mathrm{boundary}}.
+  \label{eq:morederivativevariation}
+\end{equation}
+这就导致，如果我们希望通过变分原理得到一个微分形式的运动方程，那么就会产生很多困惑，因为选定一个边界条件我们并不能够把边界项消去。下面我们就会想能不能选定两个边界条件把边界项消去。我们发现，如果我们选定 $ \delta q = 0, \delta \dot{q} = 0 $ 这个时候边界项就会消失。但是这个时候我们已经把粒子在边界上的全部信息都固定了，变分原理就没有意义了。因为边界固定了太多信息，bulk也就固定了...直接给出了0 = 0的形式。
+
+\YL{这里的解释仅仅是说明，但是更深层的解释还是需要探寻数学，我懒得学了。}
+
+那么我们应该怎么处理这样的变分问题呢？如果我们希望强行写一个变分原理强行得到一个已知的运动方程形式并且同时不会犯数学上的错误呢？有两种解决方案：
+\begin{enumerate}
+  \item 第一种是我们并不使用自然的dirichlet或者neumann边界条件，而是使用混合的边界条件。也就是我们选定 $ \delta q + \alpha \delta \dot{q} = 0 $ 这样的边界条件。这个时候我们就可以把边界项消去，并且不至于把粒子在边界上的全部信息都固定住。
+  \item 第二种是我们在Lagrangian上面加入一个boundary term。根据分析力学知道的lagrangian上面添加boundary term是不会该改变bulk的方程的。但是我们加入很可能帮助我们把变分的boundary term消去。
+\end{enumerate}
+
+
+\subsection{Hypersurfaces in GR}
+
+\hlr{需要速通一下hypersurfaces的概念,hypersurface, extrinsic curvature是什呢？}
+
+
+
+% section Preliminaries for Lecture (end)
+
+\section{Take home Message}\label{sec:Take home Message} % (fold)
+
+\subsection{Hamiltonian Formulatism and constriants}
+
+
+\subsection{Boundary terms in GR}
+
+
+\subsection{ADM decomposition in GR}
+
+
+\subsection{Hamiltonian form of GR}
+我们首先仅仅考虑一个类空超曲面的情况。然后进一步考虑如果系统有类时边界的情况。
+
+% section Take home Message (end)
+
+\section{Questions and Answers}\label{sec:Questions and Answers} % (fold)
+
+
+\textbf{Q1: 为什么自由相对论粒子的Hamiltonian的形式什么导致H = 0？什么叫over parametrization？}
+
+
+\textbf{Q2: 为什么边界上$ q, \dot{q} $不能够同时变分是0？为什么只有Dirichlet和Neumann边界条件？}
+
+一个自然的思路就是，如果我们在做变分的时候同时固定了位置和动量的话。对于一个经典力学的体系。那么我们已经知道边界上的粒子之中的全部信息，自然可以通过运动方程导出所有的图像而不需要再变分了。
+
+更细节的讨论我留在Preliminary里面进行。
+
+
+
+
+% section Questions and Answers (end)
+

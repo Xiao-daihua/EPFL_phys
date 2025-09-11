@@ -429,10 +429,10 @@ OUTPUT main.toc
 INPUT ./lec1.tex
 INPUT ./lec1.tex
 INPUT lec1.tex
+OUTPUT main.xdv
 INPUT ./sb.tex
 INPUT ./sb.tex
 INPUT sb.tex
-OUTPUT main.xdv
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

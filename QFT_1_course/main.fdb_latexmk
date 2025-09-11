@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1757486989.48536 "main.xdv" "main.pdf" "main" 1757486990.49093 0
-  "main.xdv" 1757486989.24744 26096 4609b4b64da2c3304b23f2373f426ac8 "xelatex"
+["xdvipdfmx"] 1757525794.36032 "main.xdv" "main.pdf" "main" 1757525795.08599 0
+  "main.xdv" 1757525794.19614 36820 69ab39769a0b8b8d8e4012a3a7916ea8 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1757486983.49942 "main.tex" "main.xdv" "main" 1757486990.48462 0
+["xelatex"] 1757525787.24744 "main.tex" "main.xdv" "main" 1757525795.08054 0
   "/System/Library/Fonts/Menlo.ttc" 1755369869 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -223,12 +223,12 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1750926848 5891524 3ddce580d962c5e645f787bf7a31f21f ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "cjkhl.sty" 1757399309.15506 2659 07e07fe2124aaffe2c1f544596237850 ""
-  "lec1.tex" 1757486979.86347 940 5cc3ea7cf2428adfebd876c7cd32c439 ""
+  "lec1.tex" 1757525787.10103 2502 cd0560d32952bea93a6ac9f3acce6854 ""
   "macros.sty" 1757399309.15542 6677 cf13e6c39359c2d67f989acbddf79b9d ""
-  "main.aux" 1757486989.22557 1200 f70c35455c155b4ffbdbfb3f50ffd8c9 "xelatex"
-  "main.out" 1757486989.24569 629 d9713c04f531eb82bc626990bd62131a "xelatex"
+  "main.aux" 1757525794.13727 1200 470de695a7bf19891ab1ff6c707c0116 "xelatex"
+  "main.out" 1757525794.1572 629 d9713c04f531eb82bc626990bd62131a "xelatex"
   "main.tex" 1757416371.23422 2861 fab76567921f368c8a4ba18efa98a8d7 ""
-  "main.toc" 1757486989.24715 325 c489d461fa41b7a32fe3af8e348cb4fe "xelatex"
+  "main.toc" 1757525794.17668 325 d8456cb1b35d046d7ac3d33b1eed6acf "xelatex"
   "sb.tex" 1757416641.43036 90 59d0e78e32aac68cc0fd709c2da506a5 ""
   (generated)
   "main.aux"

@@ -429,13 +429,13 @@ OUTPUT main.toc
 INPUT ./chapter1reading.tex
 INPUT ./chapter1reading.tex
 INPUT chapter1reading.tex
-OUTPUT main.xdv
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/bbold/bbold12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/bbold/bbold8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/bbold/bbold6.tfm
+OUTPUT main.xdv
 INPUT ./assets/A1ques.png
 INPUT ./assets/A1ques.png
 INPUT ./assets/A1ques.png
