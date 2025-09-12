@@ -1,0 +1,98 @@
+% main.tex - 科研项目学习笔记模板
+% !TeX root = main.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT 
+\documentclass[12pt]{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES
+
+% 中文支持（XeLaTeX 编译）
+\usepackage[UTF8]{ctex}
+\usepackage{xeCJKfntef} 
+
+% \setCJKmainfont{PingFang SC}
+% \setmainfont{PingFang SC}
+
+
+% 页面设置
+\usepackage[a4paper, left=20mm, right=20mm, top=15mm, bottom=15mm]{geometry}
+
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\usepackage{xcolor}
+
+% 数学环境及符号
+\usepackage{amsmath, amssymb, amsfonts, amsthm,amsopn}
+\usepackage{tensor}              % 张量指标管理
+\usepackage{mathtools}           % amsmath增强
+\usepackage{physics}             % 物理公式快捷命令
+             % Dirac符号
+\usepackage{bbold}               % 数学黑体
+\usepackage{dsfont}              % 另一种数字体
+\usepackage[mathscr]{eucal}     % 花体字母
+\usepackage{tensor}              % 张量指标管理
+\usepackage{simpler-wick}       % Wick记号
+\usepackage{mathrsfs}            % 另一种花体字母
+
+% 颜色与图形相关
+\usepackage{graphicx}           % 插图支持
+\usepackage{float}              % 浮动体控制
+\usepackage{tikz}               % 绘图库
+\usetikzlibrary{math}           % tikz数学扩展
+\usepackage{geometry}
+% 表格与列表
+\usepackage{makecell}           % 表格多行换行
+\usepackage{multicol}           % 多栏排版
+\usepackage{colortbl}           % 表格颜色
+\usepackage{enumitem}           % 列表自定义
+
+% 其他辅助
+\usepackage{framed}             % 有边框环境
+\usepackage{tcolorbox}          % 灵活盒子环境
+\tcbuselibrary{breakable}       % 盒子内容分页
+\usepackage{thmtools}           % 定理环境管理
+\usepackage{thm-restate}        % 定理重述
+\usepackage{showlabels}         % 显示标签，调试用（完成后可注释）
+\usepackage[normalem]{ulem}     % 下划线、删除线
+\usepackage{hyperref}           % 超链接（最后加载）
+\usepackage{cleveref}           % 智能引用（紧跟hyperref）
+\usepackage{soul}
+
+% 自定义宏包
+\usepackage{macros}
+
+% 一个中文可以高亮的包
+\usepackage{cjkhl}
+\definecolor{lightblue}{rgb}{.8,.8,1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 自定义命令
+\newcommand{\tml}{Teichmüller space}
+\newcommand{\hil}{Hilbert space}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGINNING OF THE DOCUMENT
+
+\begin{document}
+
+\title{\boldmath QFT Weinberg学习笔记}
+\author{X. D. H.}
+% \emailAdd{yuliu21012858@gmail.com} % 根据需要开启
+
+\maketitle
+
+\begin{abstract}
+这是一个Weinberg的QFT的阅读学习笔记。也希望其中能够给出Weinberg的习题的答案！！
+\end{abstract} 
+
+\tableofcontents
+
+\chapter{Relativistic QM}
+\input{content.tex}
+
+\chapter{Scattering Theory}
+\input{mt.tex}
+
+\chapter{Scratch Book}
+\input{sb.tex}  
+
+
+
+\end{document}
+

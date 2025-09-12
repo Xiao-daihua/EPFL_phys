@@ -326,6 +326,15 @@
   \end{tcolorbox}
 }
 
+% 问题计数环境捏
+
+\newcounter{question}[section]
+\renewcommand{\thequestion}{\thesection.\arabic{question}}
+
+\newcommand{\question}{%
+  \refstepcounter{question}%
+  \noindent\textbf{Question \thequestion}\quad
+}
 % 高亮背景
 \newcommand{\ghl}[1]{\colorbox{lightgray}{#1}}
 \definecolor{darkred}{HTML}{B22222} % 自定义暗红色（可改成喜欢的 RGB/HTML 值）

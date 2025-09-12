@@ -40,9 +40,21 @@
 \begin{enumerate}
   \item 物理量由于其协变关系，我们会固定是上指标还是下指标；当然我们也可以通过度规张量升降指标，modify物理量改变其协变关系。我们一般约定通过度规张量升降变换前后物理量使用同一个字母表示。但是物理上，$ x^\mu, A^\mu, \partial_\mu$ 这些指标都是固定的。
   \item 对于度规张量，我们认为度规张量都是下指标的。上指标的度规张量我们定义为下指标度规张量的逆矩阵。我们不难证明度规张量的逆矩阵正好按照Jacobi的逆进行变换。
-  \item Jacobi矩阵我们定义$ \tensor{J}{^\mu_a} = \displaystyle\frac{\partial x^\mu}{\partial y^a} $我们一般用不同语言的字母表示不同的参考系。对于Jacobi的逆矩阵我们一般用同样的符号进行表示，但是我们知道是逆变换的矩阵：$ \tensor{J}{^a_\mu} = \displaystyle\frac{\partial y^a}{\partial x^\mu} $并满足： $ \tensor{J}{^\mu_a}\tensor{J}{^a_\nu} = \tensor{\delta}{^\mu_\nu} $ 
+  \item Jacobi矩阵我们定义$ \tensor{J}{^\mu_a} = \displaystyle\frac{\partial x^\mu}{\partial y^a} $我们一般用不同语言的字母表示不同的参考系。对于Jacobi的逆矩阵我们一般用同样的符号进行表示，但是我们知道是逆变换的矩阵：$ J^{-1 a}{}_\mu =  \tensor{J}{^a_\mu} = \displaystyle\frac{\partial y^a}{\partial x^\mu} $并满足： $ \tensor{J}{^\mu_a}\tensor{J}{^a_\nu} = \tensor{\delta}{^\mu_\nu} $ 
   \item 我们把指标形式写成矩阵形式的时候常常遇见需要写一个转置。量的转置之后和之前是两个量，所以应该使用两个记号进行标记。转置也就是把两个基的前后张量积顺序进行交换，不改变其协变性质。也就是说，转置前后的的量满足：
-    $ \tensor{Ttrans}{_\nu^\mu} = \tensor{T}{^\mu_\nu} $
+    $ \tensor{Tt}{_\nu^\mu} = \tensor{T}{^\mu_\nu} $  
+    
+    \item 我们考虑逆矩阵和升降指标的关系。对于一个坐标变换会有：
+    \begin{equation}
+      \tensor{\Lambda}{^a_\mu}\tensor{\Lambda}{^a_\mu} g_{ab} = g_{\mu\nu} 
+      \label{eq:generalcoordinatetrans}
+    \end{equation}
+    对于这样的变换我们会发现升降指标之后的张量和逆矩阵满足关系：
+    \begin{equation}
+      \Lambda^{-1 \sigma}{}_c = \Lambda_c{}^\sigma 
+      \label{eq:liftandinverse}
+    \end{equation}
+    由于我们的Jacobi的逆矩阵定义为：$ J^{-1 a}{}_\mu =  \tensor{J}{^a_\mu} $所以也可以有一个等号。但是，我们不希望这样计算，太混淆了！！！
 \end{enumerate}
 
 \bigskip

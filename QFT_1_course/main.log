@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  10 SEP 2025 19:36
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  12 SEP 2025 14:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,6 +1064,7 @@ Package: macros
 \c@theorem=\count393
 \c@lemma=\count394
 \c@axiom=\count395
+\c@question=\count396
 ) (./cjkhl.sty
 Package: cjkhl 2012/08/04 v0.01 Highlighting in CJK documents (DPC)
 ) (./main.aux)
@@ -1249,10 +1250,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D9713C04F531EB82BC626990BD62131A;629.
  ) 
 Here is how much of TeX's memory you used:
- 35125 strings out of 468527
- 757744 string characters out of 5447700
+ 35131 strings out of 468527
+ 757806 string characters out of 5447700
  1199765 words of memory out of 5000000
- 62859 multiletter control sequences out of 15000+600000
+ 62865 multiletter control sequences out of 15000+600000
  637776 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,7n,121p,584b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s

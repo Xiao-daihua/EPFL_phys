@@ -1,0 +1,5 @@
+\contentsline {chapter}{\numberline {1}Note of Lecture 1}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Take home messages}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Poincare Group and Representation}{2}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Questions and discussions}{3}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Scratch Book}{5}{chapter.2}%

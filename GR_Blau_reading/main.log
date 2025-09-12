@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  10 SEP 2025 20:48
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.26)  12 SEP 2025 17:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1065,6 +1065,7 @@ Package: macros
 \c@theorem=\count394
 \c@lemma=\count395
 \c@axiom=\count396
+\c@question=\count397
 ) (./cjkhl.sty
 Package: cjkhl 2012/08/04 v0.01 Highlighting in CJK documents (DPC)
 ) (./main.aux)
@@ -1218,7 +1219,41 @@ Chapter 1.
 
 [2
 
-])
+]
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'STFangsong'. Check the typeset output, and if it is
+(fontspec)             okay then ignore this warning. Otherwise a different
+(fontspec)             font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STFangsong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STFangsong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STFangsong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'STFangsong(0)' created for font
+(fontspec)             'STFangsong' with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STFangsong/OT:script=hani;language=dflt;"
+
+)
 
 [3]
 Chapter 2.
@@ -1235,12 +1270,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 395EE78E1FF57FABCECFB12B49F706D6;1476.
  ) 
 Here is how much of TeX's memory you used:
- 35125 strings out of 468527
- 760108 string characters out of 5447700
- 1197202 words of memory out of 5000000
- 62876 multiletter control sequences out of 15000+600000
- 637696 words of font info for 107 fonts, out of 8000000 for 9000
+ 35161 strings out of 468527
+ 760833 string characters out of 5447700
+ 1202202 words of memory out of 5000000
+ 62899 multiletter control sequences out of 15000+600000
+ 637752 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 117i,8n,121p,584b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,8n,121p,584b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (6 pages, 46328 bytes).
+Output written on main.xdv (6 pages, 50132 bytes).
